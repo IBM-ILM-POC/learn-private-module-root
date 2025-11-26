@@ -1,3 +1,3 @@
-name    = "jmartin"
-prefix  = "dev"
-region  = "us-east-1"
+name   = "jmartin"
+prefix = "dev"
+region = "us-east-1"
