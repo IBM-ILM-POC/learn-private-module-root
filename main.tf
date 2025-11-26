@@ -1,3 +1,12 @@
+terraform {
+  cloud {
+    organization = "ibm-ilm-poc"
+    workspaces {
+      name = "learn-private-module-root"
+    }
+  }
+}
+
 provider "aws" {
   region = var.region
 }
